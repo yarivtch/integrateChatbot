@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/intentBasedBot/',  // שם הריפו שלך בגיטהאב
+  base: '/integrateChatbot/',  
   plugins: [react()],
   resolve: {
     extensions: ['.js', '.jsx']
