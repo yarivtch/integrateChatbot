@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "echo 'Deploying to main branch...'"
+   "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.9",
