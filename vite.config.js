@@ -6,9 +6,9 @@ export default defineConfig({
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  esbuild: {
-    loader: 'jsx',
-    include: /src\/.*\.jsx?$/,
-    exclude: []
-  }
+  build: {
+    rollupOptions: {
+      input: 'src/main.jsx', 
+    },
+  },
 })
